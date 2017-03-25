@@ -1,9 +1,5 @@
 // JavaScript Document
-<<<<<<< HEAD
-// rongli0507 - changed
-=======
-
->>>>>>> 06d22cb0ffb7c95e78e761fde18decc9f1ad79f2
+//rongli-fork-drag
 function drag(id){
 	var obj = document.getElementById(id);
 	var disX = 0;
@@ -20,7 +16,8 @@ function drag(id){
 			document.onmouseup = null;
 		};
 	}
-
+    
+    var a = 0;
 	return false;
 
 }
