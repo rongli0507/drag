@@ -1,5 +1,7 @@
 // JavaScript Document
-//chenzihao111
+
+// rongli0507
+
 function drag(id){
 	var obj = document.getElementById(id);
 	var disX = 0;
@@ -16,5 +18,7 @@ function drag(id){
 			document.onmouseup = null;
 		};
 	}
-	return true;
+
+	return false;
+
 }
