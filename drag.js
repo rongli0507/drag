@@ -1,5 +1,5 @@
 // JavaScript Document
-// rongli0507
+// rongli0507 - changed
 function drag(id){
 	var obj = document.getElementById(id);
 	var disX = 0;
